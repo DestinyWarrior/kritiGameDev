@@ -38,7 +38,7 @@ public class Stonethrower : MonoBehaviour
 
     IEnumerator Release()
     {
-        yield return new WaitForSeconds(0.15f);
+        yield return new WaitForSeconds(0.05f);
         GetComponent<SpringJoint2D>().enabled = false;
     }
 }
