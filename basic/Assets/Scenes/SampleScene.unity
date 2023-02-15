@@ -472,6 +472,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1725437954}
   - component: {fileID: 1725437953}
+  - component: {fileID: 1725437955}
   - component: {fileID: 1725437952}
   - component: {fileID: 1725437951}
   m_Layer: 7
@@ -522,7 +523,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2.5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -596,6 +597,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1725437955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725437950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9fde6ca0333a3445b115e180c3a3ffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  senstivity: 7
+  jump_vel: 7
+  _acceleration: 90
+  _moveClamp: 13
+  _deAcceleration: 60
+  jumpableGround:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &2074065916
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,7 +630,7 @@ GameObject:
   - component: {fileID: 2074065920}
   - component: {fileID: 2074065919}
   - component: {fileID: 2074065918}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
