@@ -8,15 +8,16 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D bc;
     [SerializeField] float senstivity = 7f;
     [SerializeField] float jump_vel = 7f;
-    private float _lastJumpPressed = 0f;
-    private bool jumpup, jumpdown;
-    private float hrztl=0f;
+   
     private float _currentHorizontalSpeed, _currentVerticalSpeed;
     [SerializeField] private float _acceleration = 90;
     [SerializeField] private float _moveClamp = 13;
     [SerializeField] private float _deAcceleration = 60f;
+    [SerializeField] private float boost = 60f;
 
     public LayerMask jumpableGround;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,13 +29,26 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         float x = Input.GetAxisRaw("Horizontal");
+        float b = Input.GetAxisRaw("Boost");
         if (x!=0)
         {
-            // Set horizontal move speed
-            _currentHorizontalSpeed += x * _acceleration * Time.deltaTime;
+            if (b != 0)
+            {
+                _currentHorizontalSpeed += x * boost;
+                // Set horizontal move speed
+                _currentHorizontalSpeed += x * _acceleration * Time.deltaTime;
 
-            // clamped by max frame movement
-            _currentHorizontalSpeed = Mathf.Clamp(_currentHorizontalSpeed, -_moveClamp, _moveClamp);
+                // clamped by max frame movement
+                _currentHorizontalSpeed = Mathf.Clamp(_currentHorizontalSpeed, -_moveClamp-boost, _moveClamp+boost);
+            }
+            else
+            {
+                // Set horizontal move speed
+                _currentHorizontalSpeed += x * _acceleration * Time.deltaTime;
+
+                // clamped by max frame movement
+                _currentHorizontalSpeed = Mathf.Clamp(_currentHorizontalSpeed, -_moveClamp, _moveClamp);
+            }
         }
         else
         {
