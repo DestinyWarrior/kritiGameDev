@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     private BoxCollider2D bc;
-    [SerializeField] float senstivity = 7f;
+
     [SerializeField] float jump_vel = 7f;
    
     private float _currentHorizontalSpeed, _currentVerticalSpeed;
