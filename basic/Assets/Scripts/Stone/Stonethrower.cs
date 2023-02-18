@@ -12,7 +12,8 @@ public class Stonethrower : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     [SerializeField] float timeToDisable=5f;
     [SerializeField] GameObject target;
-    private bool transform = true;
+    [SerializeField] StoneCollection countChanger;
+    private bool notPulled = true;
 
 
     void Start()
@@ -20,21 +21,22 @@ public class Stonethrower : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         springJoint = GetComponent<SpringJoint2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        springJoint.enabled =false;
-       spriteRenderer.enabled = false;
+        countChanger=target.GetComponent<StoneCollection>();  //taking player's stonecollection component
+        springJoint.enabled =false;                         //springjoint bw player and stone is disabled so as player moves the joint doesnt generate kinetic energy
+       spriteRenderer.enabled = false;                      //stone should not be visible
 
     }
 
     void Update()
     {
-        if(transform)
+        if(notPulled)
         {
             gameObject.transform.position = target.transform.position;
             rb.bodyType = RigidbodyType2D.Kinematic;
          
         }
         
-        if(Input.GetAxisRaw("StoneThrow")!=0 )
+        if(Input.GetAxisRaw("StoneThrow")!=0 && countChanger.stone_count > 0)
         {
             rb.bodyType = RigidbodyType2D.Static;
             gameObject.transform.position = target.transform.position;
@@ -45,9 +47,9 @@ public class Stonethrower : MonoBehaviour
                 Invoke("DisableComponent", timeToDisable);
             
         }
-        if (isPressed)
+        if (isPressed && countChanger.stone_count>0 )
         {
-            transform = false;
+            notPulled = false;
             rb.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
     }
@@ -59,6 +61,9 @@ public class Stonethrower : MonoBehaviour
     }
     private void OnMouseUp()
     {
+        countChanger.stone_count--;
+        countChanger.stoneCount.text = "Stone:" + countChanger.stone_count;
+
         isPressed = false;
         rb.isKinematic = false;
         StartCoroutine(Release());

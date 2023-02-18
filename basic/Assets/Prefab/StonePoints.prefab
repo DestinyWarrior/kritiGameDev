@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8454565628514574413, guid: 47cd9837735175748bfa331517049353, type: 3}
       propertyPath: m_Name
-      value: stone (1)
+      value: StonePoints
       objectReference: {fileID: 0}
     - target: {fileID: 8454565628514574413, guid: 47cd9837735175748bfa331517049353, type: 3}
       propertyPath: m_Layer
@@ -25,7 +25,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8454565628514574413, guid: 47cd9837735175748bfa331517049353, type: 3}
       propertyPath: m_TagString
-      value: points
+      value: stonePoints
       objectReference: {fileID: 0}
     - target: {fileID: 8454565628514574422, guid: 47cd9837735175748bfa331517049353, type: 3}
       propertyPath: m_RootOrder

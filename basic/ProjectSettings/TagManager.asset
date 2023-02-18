@@ -7,6 +7,7 @@ TagManager:
   - traps
   - stone
   - points
+  - stonePoints
   layers:
   - Default
   - TransparentFX

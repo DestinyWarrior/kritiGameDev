@@ -13,7 +13,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _acceleration = 90;
     [SerializeField] private float _moveClamp = 13;
     [SerializeField] private float _deAcceleration = 60f;
-    [SerializeField] private float boost = 60f;
+    [SerializeField] private float boost = 10f;
+    [SerializeField] private float deboost = 9f;
+    [SerializeField] private float generationTimefactor = 0.5f; //time factor to regain boost
+    public float boostAcceleration = 180f;
+    private float maxBoost=15f;
 
     public LayerMask jumpableGround;
 
@@ -23,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = this.GetComponent<Rigidbody2D>();
         bc = this.GetComponent<BoxCollider2D>();
+        maxBoost = boost;
     }
     
     // Update is called once per frame
@@ -30,14 +35,24 @@ public class PlayerMovement : MonoBehaviour
     {
         float x = Input.GetAxisRaw("Horizontal");
         float b = Input.GetAxisRaw("Boost");
+        if (boost < maxBoost)
+        {
+            boost += generationTimefactor * Time.deltaTime;
+        }
         if (x!=0)
         {
             if (b != 0)
             {
                 _currentHorizontalSpeed += x * boost;
                 // Set horizontal move speed
-                _currentHorizontalSpeed += x * _acceleration * Time.deltaTime;
+                _currentHorizontalSpeed += x * boostAcceleration * Time.deltaTime;
 
+                 float tempboost=boost - deboost* Time.deltaTime;
+
+                if (tempboost > 0.09f)
+                {
+                    boost = tempboost;
+                }
                 // clamped by max frame movement
                 _currentHorizontalSpeed = Mathf.Clamp(_currentHorizontalSpeed, -_moveClamp-boost, _moveClamp+boost);
             }
@@ -47,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
                 _currentHorizontalSpeed += x * _acceleration * Time.deltaTime;
 
                 // clamped by max frame movement
-                _currentHorizontalSpeed = Mathf.Clamp(_currentHorizontalSpeed, -_moveClamp, _moveClamp);
+                _currentHorizontalSpeed = Mathf.Clamp(_currentHorizontalSpeed, -_moveClamp, _moveClamp); //restrict to moveClamp speed
             }
         }
         else
