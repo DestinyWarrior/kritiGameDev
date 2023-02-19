@@ -13,11 +13,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _acceleration = 90;
     [SerializeField] private float _moveClamp = 13;
     [SerializeField] private float _deAcceleration = 60f;
-    [SerializeField] private float boost = 10f;
+    public  float boost = 20f;
     [SerializeField] private float deboost = 9f;
     [SerializeField] private float generationTimefactor = 0.5f; //time factor to regain boost
     public float boostAcceleration = 180f;
-    private float maxBoost=15f;
+    public float maxBoost=15f;
 
     public LayerMask jumpableGround;
 
@@ -29,7 +29,17 @@ public class PlayerMovement : MonoBehaviour
         bc = this.GetComponent<BoxCollider2D>();
         maxBoost = boost;
     }
-    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("boost"))
+        {
+            boost = maxBoost;
+            Destroy(collision.gameObject);
+
+        }
+    }
+
+
     // Update is called once per frame
     void Update()
     {
@@ -83,57 +93,57 @@ public class PlayerMovement : MonoBehaviour
      /*   GatherInput();
         CalculateWalk();*/
     }
+   
 
 
+    /* #region Gather Input
 
-   /* #region Gather Input
+     private void GatherInput()
+     {
 
-    private void GatherInput()
-    {
+         bool jumpdown = Input.GetButtonDown("Jump");
+         bool jumpup = Input.GetButtonUp("Jump");
+         float hrztl = Input.GetAxisRaw("Horizontal");
 
-        bool jumpdown = Input.GetButtonDown("Jump");
-        bool jumpup = Input.GetButtonUp("Jump");
-        float hrztl = Input.GetAxisRaw("Horizontal");
-        
-        if (jumpdown)
-        {
-            _lastJumpPressed = Time.time;
-        }
-    }
+         if (jumpdown)
+         {
+             _lastJumpPressed = Time.time;
+         }
+     }
 
-    #endregion
+     #endregion
 
-    #region Walk
+     #region Walk
 
-    [Header("WALKING")][SerializeField] private float _acceleration = 90;
-    [SerializeField] private float _moveClamp = 13;
-    [SerializeField] private float _deAcceleration = 60f;
-    [SerializeField] private float _apexBonus = 2;
+     [Header("WALKING")][SerializeField] private float _acceleration = 90;
+     [SerializeField] private float _moveClamp = 13;
+     [SerializeField] private float _deAcceleration = 60f;
+     [SerializeField] private float _apexBonus = 2;
 
-    private void CalculateWalk()
-    {
-        if (hrztl != 0)
-        {
-            // Set horizontal move speed
-            _currentHorizontalSpeed += hrztl * _acceleration * Time.deltaTime;
+     private void CalculateWalk()
+     {
+         if (hrztl != 0)
+         {
+             // Set horizontal move speed
+             _currentHorizontalSpeed += hrztl * _acceleration * Time.deltaTime;
 
-            // clamped by max frame movement
-            _currentHorizontalSpeed = Mathf.Clamp(_currentHorizontalSpeed, -_moveClamp, _moveClamp);
+             // clamped by max frame movement
+             _currentHorizontalSpeed = Mathf.Clamp(_currentHorizontalSpeed, -_moveClamp, _moveClamp);
 
-            // Apply bonus at the apex of a jump
-            *//*var apexBonus = Mathf.Sign(Input.X) * _apexBonus * _apexPoint;*/
-           /* _currentHorizontalSpeed += apexBonus * Time.deltaTime;*//*
-        }
-        else
-        {
-            // No input. Let's slow the character down
-            _currentHorizontalSpeed = Mathf.MoveTowards(_currentHorizontalSpeed, 0, _deAcceleration * Time.deltaTime);
-        }
-        rb.velocity = new Vector2(_currentHorizontalSpeed, 0 );
+             // Apply bonus at the apex of a jump
+             *//*var apexBonus = Mathf.Sign(Input.X) * _apexBonus * _apexPoint;*/
+    /* _currentHorizontalSpeed += apexBonus * Time.deltaTime;*//*
+ }
+ else
+ {
+     // No input. Let's slow the character down
+     _currentHorizontalSpeed = Mathf.MoveTowards(_currentHorizontalSpeed, 0, _deAcceleration * Time.deltaTime);
+ }
+ rb.velocity = new Vector2(_currentHorizontalSpeed, 0 );
 
-    }
+}
 
-    #endregion
+#endregion
 */
 
     private bool IsGrounded()

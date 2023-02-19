@@ -16,7 +16,7 @@ public class Des2jump : MonoBehaviour
         if (collision.gameObject.tag == "Player" )
         {
 
-            if (jump==4)
+            if (jump==2)
             { Destroy(gameObject, 0); }
             jump ++;
         }

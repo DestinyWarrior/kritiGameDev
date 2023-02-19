@@ -8,6 +8,8 @@ TagManager:
   - stone
   - points
   - stonePoints
+  - pullable
+  - boost
   layers:
   - Default
   - TransparentFX
@@ -18,7 +20,7 @@ TagManager:
   - ground
   - no collision
   - stone
-  - 
+  - background
   - 
   - 
   - 
@@ -42,14 +44,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: background
+    uniqueID: 417211339
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: stone
     uniqueID: 70867237
-    locked: 0
-  - name: background
-    uniqueID: 417211339
     locked: 0
   - name: foreground
     uniqueID: 3258845395
