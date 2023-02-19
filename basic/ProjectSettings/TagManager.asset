@@ -5,19 +5,22 @@ TagManager:
   serializedVersion: 2
   tags:
   - traps
-  - SaveState
-  - Breakable
+  - stone
+  - points
+  - stonePoints
+  - pullable
+  - boost
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - ground
+  - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - ground
+  - no collision
+  - stone
+  - background
   - 
   - 
   - 
@@ -41,15 +44,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: background
     uniqueID: 417211339
     locked: 0
-  - name: ground
-    uniqueID: 656456931
+  - name: Default
+    uniqueID: 0
     locked: 0
-  - name: UI
-    uniqueID: 1179844621
+  - name: stone
+    uniqueID: 70867237
+    locked: 0
+  - name: foreground
+    uniqueID: 3258845395
     locked: 0

@@ -4,19 +4,14 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    bool selfDestruct = true;
-
     void Start()
     {
         StartCoroutine(SelfDestruct());
     }
     // Update is called once per frame
-    void Update()
-    {
-
-    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("collide hua");
         Destroy(gameObject);
     }
     IEnumerator SelfDestruct()

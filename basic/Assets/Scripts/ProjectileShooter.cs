@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class ProjectileShooter : MonoBehaviour
 {
-    
+    public bool dir = false;
     // shooting interval in seconds
-    public float shootingInterval = 1f;
+    public float shootingInterval = 2f;
+    public float speed = -50;
     //if projectile is gravity affected
     public bool isProjAffected = true;
     // prefab of the projectile
@@ -34,8 +35,11 @@ public class ProjectileShooter : MonoBehaviour
         //spawn the projectile
         GameObject projectile = Instantiate(toBeSpawned, this.transform);
         Rigidbody2D projrb = projectile.GetComponent<Rigidbody2D>();
-        projrb.velocity = new Vector2(-6, 0);
-        if(!isProjAffected)
+        if(dir)
+        projrb.velocity = new Vector2(0, speed);
+        else
+            projrb.velocity = new Vector2(speed, 0);
+        if (!isProjAffected)
         {
             projrb.gravityScale = 0;
         }
