@@ -5,14 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - traps
+  - SaveState
+  - Breakable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ground
   - Water
   - UI
-  - ground
+  - 
   - 
   - 
   - 
@@ -45,6 +47,9 @@ TagManager:
   - name: background
     uniqueID: 417211339
     locked: 0
-  - name: foreground
-    uniqueID: 3258845395
+  - name: ground
+    uniqueID: 656456931
+    locked: 0
+  - name: UI
+    uniqueID: 1179844621
     locked: 0
