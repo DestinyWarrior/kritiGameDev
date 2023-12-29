@@ -13,11 +13,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _acceleration = 90;
     [SerializeField] private float _moveClamp = 13;
     [SerializeField] private float _deAcceleration = 60f;
-    public  float boost = 20f;
+  
     [SerializeField] private float deboost = 9f;
     [SerializeField] private float generationTimefactor = 0.5f; //time factor to regain boost
+    public float boost = 20f;
     public float boostAcceleration = 180f;
-    public float maxBoost=15f;
+    private float maxBoost=15f;
+    public BoostBar boostcontrol;
 
     public LayerMask jumpableGround;
 
@@ -28,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
         rb = this.GetComponent<Rigidbody2D>();
         bc = this.GetComponent<BoxCollider2D>();
         maxBoost = boost;
+        boostcontrol.SetMaxBoost(maxBoost);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -43,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        boostcontrol.SetBoost(boost);
         float x = Input.GetAxisRaw("Horizontal");
         float b = Input.GetAxisRaw("Boost");
         if (boost < maxBoost)
@@ -96,56 +100,7 @@ public class PlayerMovement : MonoBehaviour
    
 
 
-    /* #region Gather Input
-
-     private void GatherInput()
-     {
-
-         bool jumpdown = Input.GetButtonDown("Jump");
-         bool jumpup = Input.GetButtonUp("Jump");
-         float hrztl = Input.GetAxisRaw("Horizontal");
-
-         if (jumpdown)
-         {
-             _lastJumpPressed = Time.time;
-         }
-     }
-
-     #endregion
-
-     #region Walk
-
-     [Header("WALKING")][SerializeField] private float _acceleration = 90;
-     [SerializeField] private float _moveClamp = 13;
-     [SerializeField] private float _deAcceleration = 60f;
-     [SerializeField] private float _apexBonus = 2;
-
-     private void CalculateWalk()
-     {
-         if (hrztl != 0)
-         {
-             // Set horizontal move speed
-             _currentHorizontalSpeed += hrztl * _acceleration * Time.deltaTime;
-
-             // clamped by max frame movement
-             _currentHorizontalSpeed = Mathf.Clamp(_currentHorizontalSpeed, -_moveClamp, _moveClamp);
-
-             // Apply bonus at the apex of a jump
-             *//*var apexBonus = Mathf.Sign(Input.X) * _apexBonus * _apexPoint;*/
-    /* _currentHorizontalSpeed += apexBonus * Time.deltaTime;*//*
- }
- else
- {
-     // No input. Let's slow the character down
-     _currentHorizontalSpeed = Mathf.MoveTowards(_currentHorizontalSpeed, 0, _deAcceleration * Time.deltaTime);
- }
- rb.velocity = new Vector2(_currentHorizontalSpeed, 0 );
-
-}
-
-#endregion
-*/
-
+ 
     private bool IsGrounded()
     {
         return Physics2D.BoxCast(bc.bounds.center, bc.bounds.size, 0f, Vector2.down, .1f, jumpableGround);

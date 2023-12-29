@@ -1,0 +1,6162 @@
+fileFormatVersion: 2
+guid: 0c6a78fa25e889240ab3a54d43d29300
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ground_Texture_0
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1675.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff9d36e103ae364ebb57e857f3ba194
+      internalID: -153952056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_1
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1675.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1850c886d8465eb4c94e5597cb3c0f26
+      internalID: 287414736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_2
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1675.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170d276a48e47bc4d817d91cbb003d53
+      internalID: -509099021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_3
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1675.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e8d6175202d704790555368c8d654a
+      internalID: -1191985496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_4
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1675.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d19667b7246db344a152c1113a846d9
+      internalID: 1283371282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_5
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1675.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7009ca374f892914ca917b9437a49a86
+      internalID: -1832537104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_6
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1675.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541cf45b613bb6248b110e8b4fc77f1d
+      internalID: 1979127939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_7
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1675.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b252f965bf23d345bbf000ff10be9aa
+      internalID: 877607516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_8
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1675.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5eb6f8afa122e74dbed1a7ab8a8eedf
+      internalID: 479401420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_9
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1675.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4e0beb23f29dd4586f37561aac150b
+      internalID: 1773429144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_10
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1582.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79be2f52b9ccc2746afd629742167ba8
+      internalID: 1195379322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_11
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1582.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3ac3eeba61b9e41b5f24831338cc41
+      internalID: 458537401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_12
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1582.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c5146b6d36f0f46b22b84faab30073
+      internalID: 1407634962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_13
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1582.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e2853165b7c2542b67d0d64df912e3
+      internalID: 621764561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_14
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1582.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6746e6db282744b4e991f3935c6f0112
+      internalID: 1910645871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_15
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1582.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142359687d1669f4f9f6f5de528a9b95
+      internalID: -1712956980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_16
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1582.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94872798c176f7468f0cd691b9124a5
+      internalID: 2103913972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_17
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1582.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addda7692c8e958408b4aab92035879a
+      internalID: 301294034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_18
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1582.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ea451a2a916294aa88e5ce98a32534
+      internalID: 2092512309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_19
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1582.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3062868a240964245b3c82aba040f73d
+      internalID: 849997710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_20
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1582.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946240493cb3bbf4b90316340381652a
+      internalID: -706869231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_21
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1582.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84247b0f55b92f488285ac18735543c
+      internalID: -2143160741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_22
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1582.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bf8177e11adde469b50dca8816fc42
+      internalID: 199302043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_23
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1582.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4b09da55b842c47859bf777deb7696
+      internalID: 1064127679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_24
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbfbf88e929ba24ebbebcadcf6044f8
+      internalID: -1160739879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_25
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1e036d367de574a9c5721f5890e680
+      internalID: 645152744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_26
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f83b62ec5b961b418b83762edfbc26c
+      internalID: -1638375064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_27
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544d583114d520c48b765778009945d5
+      internalID: 1160043416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_28
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f6f94553206fb419ae5b8488e4ccd4
+      internalID: -489339318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_29
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e302964ef7283304199d11f6d0ece8fc
+      internalID: -1829572471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_30
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b23d265de3f6c418848f1fef7c8598
+      internalID: 379849134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_31
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6c515839a294647b5ef4421f578933
+      internalID: 2080369753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_32
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875049236b8e0fe43b1b66ca3586535e
+      internalID: 120661490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_33
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a460dda3abea28648b5af59f8153b17b
+      internalID: -809771976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_34
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3173e29cc370b54ebb9e6ac6cc0c9bb
+      internalID: -1889521282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_35
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3048c926f5c9045b9405e0b8f80d3d
+      internalID: -757329944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_36
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374e2457c532a6547ad0226ba3766732
+      internalID: -1009299278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_37
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0dc4f2b396b99541952eca05c5829fe
+      internalID: 1322346312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_38
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821064874e2c47243ac7ac4ad3cfd389
+      internalID: -1881217682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_39
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1489.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08894e02473c839439ab72f3b82c246f
+      internalID: 1107613312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_40
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e5c60ce28c46a439c612ca470936f8
+      internalID: -1512602325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_41
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5965eb9c0d94e48a042e03fa3bb01e
+      internalID: 2128242590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_42
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958915c54b8171d4e9869a9d0385828e
+      internalID: -644553673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_43
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c2f640064f2b54d9f4a865a135d043
+      internalID: 1855118487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_44
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a33d4607d49014a98eeb085c471b53
+      internalID: -356783029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_45
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efc4ae6f3e648b49a368fd775fad3f7
+      internalID: 264190105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_46
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3943970ab97319846a5d84fc5e45da86
+      internalID: 766966007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_47
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11930753389f7e64a923f81e16149dd2
+      internalID: -1484384179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_48
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d1a6906bacc0146a357d9206b9c34d
+      internalID: -723602431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_49
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39eecc41eface634a994662b45ddbd44
+      internalID: -880646025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_50
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10d40de66ad43944a9559858ec4b734
+      internalID: 1889654534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_51
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ace0af43f9d1424599824fd4a86492b
+      internalID: -759260141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_52
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fbd733356ec0d43bac8c4bb3a64422
+      internalID: -268153730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_53
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668774849eceaae4fa12bd23dde31973
+      internalID: 1965798777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_54
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e85c4ba9511754eb8b47bd577aac6e
+      internalID: 446371247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_55
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c0de86a4f677f44abfed188fb570fa
+      internalID: 1935235548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_56
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b2b0186eaed3943af13e5717a37986
+      internalID: -1491298479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_57
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1396.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4e275b21847cf4aa8c540d8c922f2e
+      internalID: 445674483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_58
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe26a1a35fae90a47b830ce6be826b96
+      internalID: 169832638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_59
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79352944746c4434684ef02d98bbc8c6
+      internalID: 115468859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_60
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef350ba373bafd9469d26d10cc1128a6
+      internalID: 1633143875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_61
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bb66be507f89947a1bcf5ae43877ea
+      internalID: 1570300437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_62
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d0204a69a19df4da6ced55514d7ad8
+      internalID: 1720543471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_63
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ae3325b74890f4793666528b758935
+      internalID: 847929496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_64
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9eb82418e0edb48aadd843a46d2b9a
+      internalID: 1659210674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_65
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87560a2be821bff4a925b569601d3d88
+      internalID: 1162500146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_66
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f32d3ab79c0534480175b014af4158
+      internalID: -449076859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_67
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de8bb2d8565b044099dc0018714d601
+      internalID: 1323698085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_68
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017da4b1afce6ae45860f1065db98d9f
+      internalID: 302409518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_69
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdc9d854664aa3488b85f405ba84d42
+      internalID: 1564205142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_70
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be58084ca1d7814d893830c9bde4b3c
+      internalID: -602100076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_71
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149b65d58df7bcb45b0911482250c21f
+      internalID: -1982519050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_72
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0cfe198dcc503469461a25ff05e084
+      internalID: -722008358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_73
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105345da6483cfa42aa47f254e73608d
+      internalID: 247009517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_74
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd11b334a09593b4ca24dbe0dcd18a79
+      internalID: -1593128809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_75
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68beca1dfee60de46abe7e98ae9e48bc
+      internalID: 1511503461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_76
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1303.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457bda30c70e2344abff8e222aef70c7
+      internalID: 1034914136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_77
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88410d6add9bcdb46b22d40feac05213
+      internalID: -1571245835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_78
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e831ec37ca8c24ca737420945d59a6
+      internalID: 66493523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_79
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39ecb2e1d1a49247ac0aad51a3f647e
+      internalID: 780934114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_80
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3518cf390bd72024c8a77217acbe68e9
+      internalID: 856829217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_81
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944b2aac6c0da4e42acb0a760d0c0233
+      internalID: -1249773919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_82
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a514fa38332c6fa43b01fa9df5adb05b
+      internalID: -1328670759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_83
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67681dda605ee524dbc66c557d79979c
+      internalID: -1914056266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_84
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fbc13b62003474eb98b881e19ce161
+      internalID: 1252309034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_85
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a4518a7ce47a04484bf78c1ad2746d
+      internalID: -926529189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_86
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ac476b005e42d46b3e9e4392591b60
+      internalID: -36898337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_87
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9c342fe17f2ba4797c5a6e6fa7d005
+      internalID: -1160759782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_88
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7214bb776a5241438c4b54ab93ec081
+      internalID: -757956614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_89
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6713fbd0edd4cf041b6cbcbfe9e263b5
+      internalID: 859838915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_90
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991b929e90aed5b4a9d0aee9ebca0eff
+      internalID: -1034246096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_91
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad11a8d8d7a3fff4db6d1a2d1acd089e
+      internalID: -890881881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_92
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d223cf7f79260240b44303eee369c8d
+      internalID: -1289463052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_93
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940c58b0995d2414387e67ec037ab797
+      internalID: -1196252797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_94
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e2d93953c643244abe488ee2270885
+      internalID: -2079729381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_95
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c3709a99bdac24190fedce43ed3779
+      internalID: 771309577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_96
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 1210.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40ddaf36cc8714428798a62716f77fd
+      internalID: -916334564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_97
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3db479fb4516fd42a07066ad50dac6c
+      internalID: -694725818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_98
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cc52d12978c664a9d7ee80a3d8ff3a
+      internalID: 2026323285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_99
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b70185225df0840a762ac47dcd4569
+      internalID: -468241238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_100
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6095c37babb4a5d4e853ede27f7951d0
+      internalID: -192022763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_101
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff87ca2cbeff3349801a6ab1647a005
+      internalID: -2080608939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_102
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4bf402d1fbb874eac0fb40400c5544
+      internalID: 500584458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_103
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2a5b6c710ea6a41919134c5e5ad711
+      internalID: -992624433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_104
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795f3cd3068a98c4997665e8310429b7
+      internalID: -1443608627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_105
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87be304b83b1ee84097e373bf6db91fd
+      internalID: -1867298017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_106
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8062b19cecfdf409cd7bcc34d7afda
+      internalID: -181274412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_107
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab033acf44cd5d469619bf7a1f96da8
+      internalID: -2002385361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_108
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b47f7e4d5b6f814ca78738975ba4363
+      internalID: -41992141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_109
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d632c61992c04754c8656c0724f3087a
+      internalID: -1699525506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_110
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11e1f229517ed74a812fec74185b32c
+      internalID: 604449974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_111
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20b1569e1bd6ee45826ca7d58d937ff
+      internalID: -35857379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_112
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09803b73bd00ba446b324cc7da1d0e20
+      internalID: -480926520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_113
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf6a6aa24fcc8d4abd4e921330cf31d
+      internalID: 1594559310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_114
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e6f666fdd35284a967290b8ccab087
+      internalID: -543917175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_115
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709e5293092366241a577716b1967ed7
+      internalID: -2129612787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_116
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 1117.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ab4a8720690904a8603eb8a8d13eab
+      internalID: -1237419606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_117
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113b5c1a2e6b0de45abed99337faaf8b
+      internalID: 79241197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_118
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf6d8e2c06a79e4d98971127d758c79
+      internalID: -118580503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_119
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea49c8a3c638c214f9eeafd1f0724937
+      internalID: 759964806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_120
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f040854355212d94b89d59650e2665aa
+      internalID: 1352118257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_121
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ee88ac7287f614d951191a65bf3662
+      internalID: 2099829703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_122
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db447bcead7207478eb3a8e71a9aead
+      internalID: 1885333946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_123
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d03eae98e78a9d4ea3071c4487737c7
+      internalID: 531542868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_124
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c722c12184028459333c6d9c885fbb
+      internalID: 1953423686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_125
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f9ea78eb61eed409cebb8c5f868df2
+      internalID: 603264364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_126
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e732d26cceb62d14f99cf6a37ca04e63
+      internalID: -406257730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_127
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0c3e492cdb3b3489853161817d1a71
+      internalID: 1128817368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_128
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d711b997619394c9dc60d6700c3e93
+      internalID: 1062144806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_129
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb8f3abdf949ff4585f73c0a09c0018
+      internalID: 2054400316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_130
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd17b806c4682f64d8006f12a891cd35
+      internalID: 1867195660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_131
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87609a51c44b39d4fbc500f923ac2be9
+      internalID: 611476749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_132
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc11066b53746824fa88065d50015975
+      internalID: 673462872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_133
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd84927fecd834b4bb00d23a7ab76064
+      internalID: 1577091657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_134
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba49d62503f535841aa11fd388585d8a
+      internalID: 1881100674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_135
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb1ca51b3925fa40b8ce1e3d324c8b7
+      internalID: -2034747496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_136
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 1024.909
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4158881dc02e42e44a0268f9c89b07b0
+      internalID: 1022538704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_137
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64325bc892cf32f4f92e63eebf4746ad
+      internalID: -842980625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_138
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58913f9540925c04e93f4fa37f299452
+      internalID: -1937842588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_139
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f684e05a58e4c8e4a8c6c6f449cdfc48
+      internalID: 1318176768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_140
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7739e7615fc177542905198282356216
+      internalID: 1259384652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_141
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c9d28c96f71ad438b1c8715b39e0fc
+      internalID: 1425016928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_142
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa3876656e18d047bece8dc7e5c60aa
+      internalID: 773401494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_143
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77e686485e0d8b448737124e4eae1bd
+      internalID: 2078448443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_144
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2dd6800a5c3a44eae88b231a83803b
+      internalID: 1433514728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_145
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b8a7121c7cada4784a2fe01d543b63
+      internalID: 1962798361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_146
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f247c825c9a95241bcb98bb48aecd46
+      internalID: 1197546866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_147
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235e6d1094281e74a8bec79ec7a79813
+      internalID: -393558283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_148
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7b48ac34024cc48b6cfe3c887e5ae6
+      internalID: -1350911980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_149
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3567805e3f86fb4284d1a3f0a321917
+      internalID: -1365511736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_150
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43a6a96e0767404b92f37317f56e8f6
+      internalID: 87595689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_151
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3cdeb2e59d93b4dbd0bc05070bf42b
+      internalID: -1155456551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_152
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79620cf4947d7034890e91daca21aeb4
+      internalID: 1944492886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_153
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bce8a2dc723c3e418ece9554705a260
+      internalID: -1018095006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_154
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2476a4afb6fc8a043ba414f695022a9f
+      internalID: 1647249327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_155
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cdb75fa8e2d1e499b8e8228affd184
+      internalID: -70763516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_156
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 931.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabf32f16d0e4f340894abeabd448f61
+      internalID: -1120537765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_157
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63df4d4f33317947bbc72cd4ce38e7b
+      internalID: -1007637313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_158
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7945211339197c498bb6bf7ccf32998
+      internalID: 1807706292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_159
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ad3efc6a9a0d540a7639da08d68b06
+      internalID: 2090527181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_160
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bdcfe52021b0c408431b669396dead
+      internalID: 1885676385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_161
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdb6cfc0cb579042969fe8e59ad4170
+      internalID: 1042916550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_162
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6e990b954217e42aa86ac7c814d2e1
+      internalID: -2002682804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_163
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620533fcea2753242b0c87bc5924adc9
+      internalID: -465177377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_164
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9625fb72d4507604084c3ac69a15d8c7
+      internalID: 456145777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_165
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cb984ba5bab8c4ab0f43f2451b111d
+      internalID: -744970791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_166
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a0810460b24544fae569b3c190a21b
+      internalID: 1417287279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_167
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe0b9c11e8cfb54bae4c3e28f8914f4
+      internalID: -509851134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_168
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e5239358fe4594694c9f541fac3db2
+      internalID: -321857966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_169
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ede030d8bbe2de4389f7cdcb9c1f8f8
+      internalID: 629398668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_170
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739c24f45026d634aacd140e97b91064
+      internalID: 385704405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_171
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1693b20d96ddcd4fa665a03be468b64
+      internalID: -438255013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_172
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcf3a10e7753e343a5a00d11509472c
+      internalID: 1036538291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_173
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4615624ad398a674a9b4b2efe4e379b4
+      internalID: -1705436147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_174
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e6d593c5aafda46b418f230fb82aa7
+      internalID: 1753764955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_175
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b369bef76b4f1418fc1bb1644869f7
+      internalID: 1745878464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_176
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 838.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c44aeee7ec7904597183029b2fdc54
+      internalID: 658029241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_177
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5239a9e0438b54c96dd56df333faf8
+      internalID: 400485970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_178
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38defb67b918919459019a4eeaa5ed35
+      internalID: -2059313045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_179
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78fbbb8b97298641b1e4a7a3efce80a
+      internalID: -186108745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_180
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75109cf020c1b1f47be7ffdfc17f8006
+      internalID: 838795110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_181
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ff17f4a7b5254439e9e1e60d70fa9c
+      internalID: -24573449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_182
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e651c35fbcd311448b03bfd7b9f1c5ca
+      internalID: 14401942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_183
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2a8124a4fe9f843814dfadbb7131af
+      internalID: -1242338172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_184
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dbc116d25e0fd43b2bcf1d1dc54496
+      internalID: 1828564930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_185
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e584b56aa2cc92749bc1fb3953d939fc
+      internalID: -1271310284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_186
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8066206f2b58ce34aa36fd1726bb48eb
+      internalID: -269782982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_187
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c639b3458b967bc438b4cc5a26e4a323
+      internalID: -391267351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_188
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a862e6725d89d46b37e486ec6e83b1
+      internalID: -839776509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_189
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4042ecdee7d8e414a8860029d0876c2f
+      internalID: 89053349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_190
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b819e59d4d406448350569b90592c8
+      internalID: 2001238876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_191
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4795c25bed538a843bdefa45f59ff155
+      internalID: -56164718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_192
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdde3caedb1f3446b9bb257e083c3ca
+      internalID: 2061710965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_193
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955e91ea598a2b545a453c4bf0535e0f
+      internalID: -710012674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_194
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0f108cfec522f4281e76cf729ce1f4
+      internalID: -1757542174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_195
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbb066b8e1847943994b3764c961b7c
+      internalID: -18132819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_196
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 745.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c706fb4f5cfae594e80a89ab0bae9306
+      internalID: 524991119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_197
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bbf2d0d9c1fa745884d7aa82734740
+      internalID: -571847244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_198
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedb7b4a6697a0848bfde6a0663740ea
+      internalID: -351520508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_199
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d2ada392ec0a94ca196ec164491918
+      internalID: 215494073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_200
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805b0a57eccf7a845a2df3535ad21878
+      internalID: -230257814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_201
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077b2b89b0201ed4db6fa726af0f5b97
+      internalID: -604850272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_202
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564fd53d5bfe4e74599a45a75bedc4fb
+      internalID: -2117594776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_203
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35892fbe543472847baf7b0bd01ffea3
+      internalID: 1144001876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_204
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ffd9c08ae1b7142800eeccc68f3edf
+      internalID: -541861319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_205
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092c8cb19267f92428ac783d87eeffb7
+      internalID: 873975299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_206
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62126c97dd84e9e4cbb32d65cae76315
+      internalID: 1152548995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_207
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007a3059a4a2b34498f9997996044c90
+      internalID: 782238758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_208
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7f098341fe0ec42bb8d571b767b918
+      internalID: -583471982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_209
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c0b11bb67a69a428e6bbac461b9e7b
+      internalID: -497089349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_210
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a920e60e6e35e41925dd74f06c20b6
+      internalID: 1982692569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_211
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f91dfd53f4245d408d6d4fd5d615720
+      internalID: -405566986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_212
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ab590071a2cb542a0d96d4c2fa4a3f
+      internalID: 32589712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_213
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2391f318525bc14a8d58f180bd4c761
+      internalID: -39437592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_214
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f159d4bd7373c6f43b55720c17430b5c
+      internalID: 916016074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_215
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 652.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1749d74a84ede4a906b12b0ce5ce75
+      internalID: -827800715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_216
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bc84c396c00e642909bb5f7bc0fcd3
+      internalID: 1184004969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_217
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd769b8463623a47a4ad91281a1ea0e
+      internalID: -375140631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_218
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70b3f443a4fe4b4ba003ad569cb8682
+      internalID: 327553385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_219
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c095796ce73dc3499946649a3224f02
+      internalID: -1380515548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_220
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8b991db6b03eb419db203ac07a219a
+      internalID: -20261552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_221
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae7666b67cf92e43a91ef03b05b3fad
+      internalID: 1019403348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_222
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae235dc4ca6b6cf45aa43fca38ce577e
+      internalID: 617731124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_223
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252ffcbde3bbd6c4e8bb20adfe145594
+      internalID: 483410413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_224
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0317eb36f8ddc4db4c6bd37a36af7f
+      internalID: -231971849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_225
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970816a6e677ccc449fa8332f08409ff
+      internalID: 1291467280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_226
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6f03fe8d258344da60b1d52c7e0aeb
+      internalID: 538091414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_227
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878a3baeab2bda44abdf1ef9e62372a0
+      internalID: 2036635374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_228
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25823c7b9776d84f85eb4ec94d99f0c
+      internalID: 1507743149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_229
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381d3051b1e65194c9703ce28d46cdfc
+      internalID: -1016430712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_230
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60e4cd09b4fe03408908c14bd9fcde3
+      internalID: -1456113834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_231
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae86824c548f55345805f458c1ff7964
+      internalID: 694990970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_232
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f9212f69f281b4cbd147b77c437230
+      internalID: 569366056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_233
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 559.90906
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08ce8e3e2ef36140a4aeffa01f56fd8
+      internalID: 397844911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_234
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2786e99eefa1da948b729a734ebfb275
+      internalID: -1517334648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_235
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc9828b5eb121e4e9397b3b9d557a7c
+      internalID: 531403433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_236
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bfdb9134ed57d47a42ab8d5764474e
+      internalID: 737885693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_237
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7587eb5518d8c5a4eb92ddf76d8af997
+      internalID: -825853958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_238
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca330c52cb4171458da43b13490835e
+      internalID: 699892974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_239
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f6dc18b67b7dd448db07c166b3efff
+      internalID: 5297036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_240
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1f17adb9bdc114dae61ebb963e9b7d
+      internalID: 686397976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_241
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b152a65442f0fc449500254d4cbbe20
+      internalID: -931929387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_242
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257537dd0723b2b47b09a1e6b0192779
+      internalID: -927555222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_243
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a08c8a51f246747b0176c9626c9b77
+      internalID: -51012733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_244
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c618152c5b3a2674b8ffe7336aa761c1
+      internalID: 36447104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_245
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630e13a5d048ff14bb2d1997284edb9e
+      internalID: 862563006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_246
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ada5e41a21567146ba9ee5bcaff9e0f
+      internalID: -867303876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_247
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06dc2c0297c3c446b6d817b7780af82
+      internalID: -2034579315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_248
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1b6548a9cd0e549a236f348b2f4400
+      internalID: -952179219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_249
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 466.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45a02933c82a8d4cb4fc260f0d10d89
+      internalID: -1786973454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_250
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 373.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87931040646692847ae098802813dc38
+      internalID: -1109893137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_251
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 373.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed68fc03e80ee04aa63be31588ea171
+      internalID: -798041111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_252
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 373.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b860742c9c33a4288fc2560ad52dc9
+      internalID: -1302562413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_253
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 373.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3f71de4400c3c489921ff339744fc5
+      internalID: 510955680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_254
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 373.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab6f954256a66a42879c475930b2583
+      internalID: 352106698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_255
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 373.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae21456da5eb0fc46ad6ccc2361b591a
+      internalID: -167624059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_256
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 373.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0de0d768f895b44c8657f060fa017e8
+      internalID: 1029119911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_257
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 373.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea09f60a0a35624e8022bffe3067fe3
+      internalID: -1178794989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_258
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 373.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a409453c1e3cb4b4d8c1b1acbb11e48f
+      internalID: -859103751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_259
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 373.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c86dd479e8a563459c25bf99e648f09
+      internalID: 1907419409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_260
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 373.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89705dd5c5f489408b5b62412cc623d
+      internalID: 729255511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_261
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 373.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c85467b02867b499636d2aa0a8e6d5
+      internalID: 229843745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_262
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 373.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfe15f8fd2453345aa40b06479c0e63
+      internalID: 1820350626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_263
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 373.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad64dd09566ae6042bcdc084103ad26e
+      internalID: -929461916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_264
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 280.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0349e0b7bcc25c41a5b1e5dae3724d0
+      internalID: 1248296977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_265
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 280.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4b1811c8a0ee64c94a12f12420958b
+      internalID: -933831234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_266
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 280.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7927a7cdcace0cc468f5e312ff1fe0cf
+      internalID: -751336122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_267
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 280.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f735eee72662e8244822235d37d2fdce
+      internalID: -928045962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_268
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 280.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcfc4bd8e2cf3c4bb03314b91aa9d4c
+      internalID: -2033311272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_269
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 280.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faa82a33dd813d4da44994f895323d1
+      internalID: 1025469405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_270
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 280.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05569e9e0c086144bc8af31faec0a00
+      internalID: -1634106391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_271
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 280.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f01c45bbb0caa4ab17278612af9c50
+      internalID: 1769044099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_272
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 280.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439d31c76f6ea594b9ccb75311217489
+      internalID: -1050364308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_Texture_273
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 280.9091
+        width: 73.14286
+        height: 93.09091
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f521813ecbe6e247a75a70746d825ec
+      internalID: 1437884318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ground_Texture_110: 604449974
+      Ground_Texture_18: 2092512309
+      Ground_Texture_32: 120661490
+      Ground_Texture_83: -1914056266
+      Ground_Texture_193: -710012674
+      Ground_Texture_141: 1425016928
+      Ground_Texture_144: 1433514728
+      Ground_Texture_62: 1720543471
+      Ground_Texture_157: -1007637313
+      Ground_Texture_269: 1025469405
+      Ground_Texture_239: 5297036
+      Ground_Texture_251: -798041111
+      Ground_Texture_15: -1712956980
+      Ground_Texture_236: 737885693
+      Ground_Texture_166: 1417287279
+      Ground_Texture_174: 1753764955
+      Ground_Texture_78: 66493523
+      Ground_Texture_36: -1009299278
+      Ground_Texture_100: -192022763
+      Ground_Texture_54: 446371247
+      Ground_Texture_208: -583471982
+      Ground_Texture_12: 1407634962
+      Ground_Texture_20: -706869231
+      Ground_Texture_228: 1507743149
+      Ground_Texture_164: 456145777
+      Ground_Texture_192: 2061710965
+      Ground_Texture_51: -759260141
+      Ground_Texture_29: -1829572471
+      Ground_Texture_91: -890881881
+      Ground_Texture_95: 771309577
+      Ground_Texture_79: 780934114
+      Ground_Texture_151: -1155456551
+      Ground_Texture_154: 1647249327
+      Ground_Texture_250: -1109893137
+      Ground_Texture_165: -744970791
+      Ground_Texture_189: 89053349
+      Ground_Texture_16: 2103913972
+      Ground_Texture_0: -153952056
+      Ground_Texture_102: 500584458
+      Ground_Texture_77: -1571245835
+      Ground_Texture_14: 1910645871
+      Ground_Texture_31: 2080369753
+      Ground_Texture_179: -186108745
+      Ground_Texture_181: -24573449
+      Ground_Texture_191: -56164718
+      Ground_Texture_130: 1867195660
+      Ground_Texture_156: -1120537765
+      Ground_Texture_47: -1484384179
+      Ground_Texture_88: -757956614
+      Ground_Texture_123: 531542868
+      Ground_Texture_257: -1178794989
+      Ground_Texture_211: -405566986
+      Ground_Texture_13: 621764561
+      Ground_Texture_75: 1511503461
+      Ground_Texture_116: -1237419606
+      Ground_Texture_167: -509851134
+      Ground_Texture_121: 2099829703
+      Ground_Texture_171: -438255013
+      Ground_Texture_136: 1022538704
+      Ground_Texture_1: 287414736
+      Ground_Texture_34: -1889521282
+      Ground_Texture_158: 1807706292
+      Ground_Texture_199: 215494073
+      Ground_Texture_272: -1050364308
+      Ground_Texture_19: 849997710
+      Ground_Texture_92: -1289463052
+      Ground_Texture_63: 847929496
+      Ground_Texture_84: 1252309034
+      Ground_Texture_33: -809771976
+      Ground_Texture_82: -1328670759
+      Ground_Texture_101: -2080608939
+      Ground_Texture_23: 1064127679
+      Ground_Texture_182: 14401942
+      Ground_Texture_127: 1128817368
+      Ground_Texture_205: 873975299
+      Ground_Texture_212: 32589712
+      Ground_Texture_187: -391267351
+      Ground_Texture_263: -929461916
+      Ground_Texture_252: -1302562413
+      Ground_Texture_49: -880646025
+      Ground_Texture_89: 859838915
+      Ground_Texture_254: 352106698
+      Ground_Texture_147: -393558283
+      Ground_Texture_37: 1322346312
+      Ground_Texture_138: -1937842588
+      Ground_Texture_137: -842980625
+      Ground_Texture_38: -1881217682
+      Ground_Texture_249: -1786973454
+      Ground_Texture_177: 400485970
+      Ground_Texture_112: -480926520
+      Ground_Texture_108: -41992141
+      Ground_Texture_268: -2033311272
+      Ground_Texture_133: 1577091657
+      Ground_Texture_238: 699892974
+      Ground_Texture_273: 1437884318
+      Ground_Texture_184: 1828564930
+      Ground_Texture_271: 1769044099
+      Ground_Texture_172: 1036538291
+      Ground_Texture_227: 2036635374
+      Ground_Texture_196: 524991119
+      Ground_Texture_264: 1248296977
+      Ground_Texture_42: -644553673
+      Ground_Texture_229: -1016430712
+      Ground_Texture_115: -2129612787
+      Ground_Texture_266: -751336122
+      Ground_Texture_71: -1982519050
+      Ground_Texture_131: 611476749
+      Ground_Texture_233: 397844911
+      Ground_Texture_245: 862563006
+      Ground_Texture_150: 87595689
+      Ground_Texture_40: -1512602325
+      Ground_Texture_72: -722008358
+      Ground_Texture_11: 458537401
+      Ground_Texture_162: -2002682804
+      Ground_Texture_216: 1184004969
+      Ground_Texture_39: 1107613312
+      Ground_Texture_55: 1935235548
+      Ground_Texture_173: -1705436147
+      Ground_Texture_45: 264190105
+      Ground_Texture_76: 1034914136
+      Ground_Texture_103: -992624433
+      Ground_Texture_176: 658029241
+      Ground_Texture_85: -926529189
+      Ground_Texture_61: 1570300437
+      Ground_Texture_195: -18132819
+      Ground_Texture_111: -35857379
+      Ground_Texture_6: 1979127939
+      Ground_Texture_188: -839776509
+      Ground_Texture_126: -406257730
+      Ground_Texture_129: 2054400316
+      Ground_Texture_8: 479401420
+      Ground_Texture_94: -2079729381
+      Ground_Texture_186: -269782982
+      Ground_Texture_57: 445674483
+      Ground_Texture_175: 1745878464
+      Ground_Texture_240: 686397976
+      Ground_Texture_113: 1594559310
+      Ground_Texture_242: -927555222
+      Ground_Texture_134: 1881100674
+      Ground_Texture_46: 766966007
+      Ground_Texture_143: 2078448443
+      Ground_Texture_180: 838795110
+      Ground_Texture_87: -1160759782
+      Ground_Texture_122: 1885333946
+      Ground_Texture_24: -1160739879
+      Ground_Texture_213: -39437592
+      Ground_Texture_67: 1323698085
+      Ground_Texture_80: 856829217
+      Ground_Texture_96: -916334564
+      Ground_Texture_163: -465177377
+      Ground_Texture_93: -1196252797
+      Ground_Texture_207: 782238758
+      Ground_Texture_99: -468241238
+      Ground_Texture_209: -497089349
+      Ground_Texture_70: -602100076
+      Ground_Texture_107: -2002385361
+      Ground_Texture_7: 877607516
+      Ground_Texture_119: 759964806
+      Ground_Texture_149: -1365511736
+      Ground_Texture_246: -867303876
+      Ground_Texture_21: -2143160741
+      Ground_Texture_68: 302409518
+      Ground_Texture_27: 1160043416
+      Ground_Texture_120: 1352118257
+      Ground_Texture_109: -1699525506
+      Ground_Texture_253: 510955680
+      Ground_Texture_210: 1982692569
+      Ground_Texture_58: 169832638
+      Ground_Texture_224: -231971849
+      Ground_Texture_53: 1965798777
+      Ground_Texture_267: -928045962
+      Ground_Texture_60: 1633143875
+      Ground_Texture_243: -51012733
+      Ground_Texture_35: -757329944
+      Ground_Texture_160: 1885676385
+      Ground_Texture_69: 1564205142
+      Ground_Texture_168: -321857966
+      Ground_Texture_270: -1634106391
+      Ground_Texture_220: -20261552
+      Ground_Texture_104: -1443608627
+      Ground_Texture_124: 1953423686
+      Ground_Texture_231: 694990970
+      Ground_Texture_232: 569366056
+      Ground_Texture_117: 79241197
+      Ground_Texture_52: -268153730
+      Ground_Texture_235: 531403433
+      Ground_Texture_90: -1034246096
+      Ground_Texture_178: -2059313045
+      Ground_Texture_9: 1773429144
+      Ground_Texture_10: 1195379322
+      Ground_Texture_118: -118580503
+      Ground_Texture_225: 1291467280
+      Ground_Texture_43: 1855118487
+      Ground_Texture_114: -543917175
+      Ground_Texture_142: 773401494
+      Ground_Texture_81: -1249773919
+      Ground_Texture_201: -604850272
+      Ground_Texture_17: 301294034
+      Ground_Texture_258: -859103751
+      Ground_Texture_26: -1638375064
+      Ground_Texture_222: 617731124
+      Ground_Texture_247: -2034579315
+      Ground_Texture_148: -1350911980
+      Ground_Texture_146: 1197546866
+      Ground_Texture_169: 629398668
+      Ground_Texture_152: 1944492886
+      Ground_Texture_203: 1144001876
+      Ground_Texture_255: -167624059
+      Ground_Texture_260: 729255511
+      Ground_Texture_221: 1019403348
+      Ground_Texture_73: 247009517
+      Ground_Texture_202: -2117594776
+      Ground_Texture_56: -1491298479
+      Ground_Texture_241: -931929387
+      Ground_Texture_190: 2001238876
+      Ground_Texture_197: -571847244
+      Ground_Texture_59: 115468859
+      Ground_Texture_48: -723602431
+      Ground_Texture_64: 1659210674
+      Ground_Texture_105: -1867298017
+      Ground_Texture_206: 1152548995
+      Ground_Texture_256: 1029119911
+      Ground_Texture_237: -825853958
+      Ground_Texture_219: -1380515548
+      Ground_Texture_132: 673462872
+      Ground_Texture_259: 1907419409
+      Ground_Texture_226: 538091414
+      Ground_Texture_223: 483410413
+      Ground_Texture_30: 379849134
+      Ground_Texture_139: 1318176768
+      Ground_Texture_135: -2034747496
+      Ground_Texture_74: -1593128809
+      Ground_Texture_86: -36898337
+      Ground_Texture_161: 1042916550
+      Ground_Texture_3: -1191985496
+      Ground_Texture_159: 2090527181
+      Ground_Texture_98: 2026323285
+      Ground_Texture_28: -489339318
+      Ground_Texture_145: 1962798361
+      Ground_Texture_194: -1757542174
+      Ground_Texture_217: -375140631
+      Ground_Texture_106: -181274412
+      Ground_Texture_66: -449076859
+      Ground_Texture_97: -694725818
+      Ground_Texture_218: 327553385
+      Ground_Texture_204: -541861319
+      Ground_Texture_265: -933831234
+      Ground_Texture_244: 36447104
+      Ground_Texture_128: 1062144806
+      Ground_Texture_230: -1456113834
+      Ground_Texture_50: 1889654534
+      Ground_Texture_153: -1018095006
+      Ground_Texture_65: 1162500146
+      Ground_Texture_140: 1259384652
+      Ground_Texture_25: 645152744
+      Ground_Texture_2: -509099021
+      Ground_Texture_262: 1820350626
+      Ground_Texture_185: -1271310284
+      Ground_Texture_22: 199302043
+      Ground_Texture_215: -827800715
+      Ground_Texture_4: 1283371282
+      Ground_Texture_200: -230257814
+      Ground_Texture_198: -351520508
+      Ground_Texture_214: 916016074
+      Ground_Texture_234: -1517334648
+      Ground_Texture_155: -70763516
+      Ground_Texture_183: -1242338172
+      Ground_Texture_248: -952179219
+      Ground_Texture_261: 229843745
+      Ground_Texture_44: -356783029
+      Ground_Texture_41: 2128242590
+      Ground_Texture_5: -1832537104
+      Ground_Texture_170: 385704405
+      Ground_Texture_125: 603264364
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

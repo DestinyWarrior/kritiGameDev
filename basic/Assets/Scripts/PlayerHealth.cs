@@ -4,19 +4,17 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-
-    public GameObject canva;
-    public void Die()
-    {
-        PlayerMain pm = gameObject.GetComponent<PlayerMain>();
-        canva.SetActive(true);
-        if(pm.curCheckpoint)
-            pm.curCheckpoint.GetComponent<CheckPoint>().Respawn();
-    }
-    private Rigidbody rb;
+    private Rigidbody2D rb;
+    // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    // Update is called once per frame
+    private void Update()
+    {
+        
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -24,5 +22,10 @@ public class PlayerHealth : MonoBehaviour
         {
             Die();
         }
+    }
+    public void Die()
+    {
+        PlayerMain pm = GetComponent<PlayerMain>();
+        pm.curCheckpoint.GetComponent<CheckPoint>().Respawn();
     }
 }

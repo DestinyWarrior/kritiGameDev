@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class sceneCHanger : MonoBehaviour
+public class scenechanger : MonoBehaviour
 {
     public string sceneName;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
+            SceneManager.LoadScene(sceneName);
         }
     }
 
